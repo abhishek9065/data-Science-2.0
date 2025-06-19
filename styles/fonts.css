@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Cursor';
+  src: url('path/to/cursor-font.woff2') format('woff2'),
+       url('path/to/cursor-font.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Replace JetBrains Mono with Cursor font */
+body, pre, code, .code-area {
+  font-family: 'Cursor', monospace !important;
+  /* You may want to adjust these properties to match your preferences */
+  font-size: 14px;
+  line-height: 1.5;
+}
